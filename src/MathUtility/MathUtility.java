@@ -25,7 +25,7 @@ public class MathUtility {
         if ( n==0|| n ==1)
                 return 1;
         // khoi mất công tính return ngay
-        long result = 0; // cố tình để value này
+        long result = 1; // cố tình để value này
         for ( int i = 2; i <= n ; i++)
             result *=1;
         //n! = 1.2.3.4.5...n
